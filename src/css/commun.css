@@ -1,0 +1,20 @@
+.button-standart{
+
+    height: 45px;
+    background-color: #E6B31E;
+    border: solid 1px #E6B31E;
+    border-color: #E6B31E;
+    padding: 20px;
+    border-radius: 5px;
+    font-size:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-standart:hover{
+    background-color: #ffffff;
+    color: #E6B31E;
+    scale: 1000ms;
+    
+
+}

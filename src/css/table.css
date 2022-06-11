@@ -1,0 +1,77 @@
+.image{
+  width: 170px !important;
+  height: 120px !important;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border-radius: 50%; */
+
+}
+
+.main-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+  
+    grid-gap: 35px;
+    margin: 35px 0px 35px 0px ;
+  }
+  
+  .overviewcard {
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1 3px 6px rgba(0, 0, 0, 0.1);
+    border: 1.5px solid #EEE6E6;
+    border-radius: 5px;
+  }
+  
+  .overviewcard:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+  }
+  .overviewcard__icon span{
+    font-size:40px;
+    color:#E6B31E;
+  }
+  
+  
+  .overviewcard p {
+    align-self: start;
+    color: #E6B31E;
+    font-size: 35px;
+    margin: 0;
+  
+  }
+  
+  .overviewcard h3 {
+    align-self: start;
+  
+    font-size: 15px;
+    color: #B8B6AF;
+    margin: 0;
+  }
+
+  .icon{
+    color: #ffffff;
+    font-size:35px;
+    border:solid 1px #D6CFCF;
+    background-color: #0B6365;
+    border-radius:50px;
+    padding:6px;
+    cursor: pointer;
+  }
+
+  .margin-25{
+    margin:25px;
+  }
+  .button-standart{
+    color:white;
+    width:300px;
+    height:45px;
+    background-color:#E6B31E;
+    border:none
+  }
+
